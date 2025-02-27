@@ -8,7 +8,7 @@ package fathya260225;
  *
  * @author WINDOWS
  */
-public class LatihanDeklarasi {
+public class Latihan4111 {
     public static void main(String[] args) {
       int number = 10;
       char letter = 'a';
