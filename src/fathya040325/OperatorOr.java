@@ -21,7 +21,7 @@ public class OperatorOr {
         System.out.println(test);
         
         //demonstrasi |
-        test = (i < 10) || (j++ > 9);
+        test = (i < 10) | (j++ > 9);
         System.out.println(i);
         System.out.println(j);
         System.out.println(test);
