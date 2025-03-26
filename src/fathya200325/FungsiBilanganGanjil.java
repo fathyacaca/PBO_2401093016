@@ -11,18 +11,21 @@ package fathya200325;
 import java.util.Scanner;
 public class FungsiBilanganGanjil {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        
-        System.out.print("Masukkan sebuah bilangan: ");
-        int number = scanner.nextInt();
-        
-        boolean isOddNumber = isOdd(number);
-        
-        System.out.println("Apakah bilangan " + number + " adalah ganjil? " + isOddNumber);
-        
-        scanner.close();
+        if (args.length == 0){
+            System.out.println("tidak ada argumen baris perintah yang di berikan");
     }
-    public static boolean isOdd(int number) {
-        return number % 2 != 0;
+        else{
+            System.out.println("bilangan ganjil dari argumen yang di berikan:");
+            for (String arg : args){
+                try{
+                    int number = Integer.parseInt(arg);
+                    if (number % 2 !=0){
+                        System.out.println(number);
+                    }
+                }catch (NumberFormatException e){
+                    System.out.println("bukan angka valid"+arg);
+                }
+            }
+        }
     }
 }

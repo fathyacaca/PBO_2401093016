@@ -8,27 +8,33 @@ package fathya200325;
  *
  * @author WINDOWS
  */
-import java.util.Scanner;
 public class FungsiBilanganFibonaci {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        
-        System.out.print("Masukkan jumlah bilangan Fibonaci: ");
-        int number = scanner.nextInt();
-        
-       System.out.println("Bilangan Fibonaci:");
-       for (int i=0; i<number; i++){
-           System.out.println(fibonaci(i)+ " ");
-       }
-       
-       scanner.close();
+        if (args.length == 0){
+            System.out.println("tidak ada argumen baris perintah yang di berikan");
     }
-        public static int fibonaci(int number){
-            if (number <= 1){
-                return number;
+        else{
+            System.out.println("bilangan fibonacci dari argumen yang di berikan:");
+            for (String arg : args){
+                try{
+                    int number = Integer.parseInt(arg);
+                    System.out.println("finonacci "+number+"=");
+                    System.out.println(fibonacci(number));
+                }catch (NumberFormatException e){
+                    System.out.println("bukan angka valid"+arg);
+                }
             }
-            return fibonaci(number-1) + fibonaci(number-2);
         }
     }
-    
+    public static int fibonacci(int number){
+        if(number<=0){
+            return 0;
+        }
+        else if (number==1){
+            return 1;
+        }
+        else {
+            return fibonacci(number-1)+fibonacci(number-2);
+        }
+    }
 }
