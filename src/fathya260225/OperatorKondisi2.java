@@ -2,23 +2,18 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package fathya1510425;
+package fathya260225;
 
 /**
  *
  * @author WINDOWS
  */
-public class ExampleAbstract {
+public class OperatorKondisi2 {
     public static void main(String[] args){
-        Human human = new Human();
-        human.breath();
-        human.eat();
-        human.walk();
-        
-        Horse horse = new Horse();
-        horse.breath();
-        horse.eat();
-        horse.walk();
+        int score = 0; 
+        char answer = 'a'; 
+ 
+        score = (answer == 'a') ? 10 : 0; 
+        System.out.println("Score = " + score );
     }
-    
 }
