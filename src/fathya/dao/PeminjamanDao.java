@@ -14,7 +14,7 @@ import java.sql.ResultSet;
 
 /**
  *
- * @author LABSIDOSEN
+ * @author WINDOWS
  */
 public class PeminjamanDao {
 

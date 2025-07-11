@@ -12,7 +12,7 @@ import javax.swing.JTextField;
 
 /**
  *
- * @author LABSIDOSEN
+ * @author WINDOWS
  */
 public class FormAnggota extends javax.swing.JFrame {
 

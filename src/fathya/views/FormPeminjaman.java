@@ -12,7 +12,7 @@ import javax.swing.JTextField;
 
 /**
  *
- * @author LABSIDOSEN
+ * @author WINDOWS
  */
 public class FormPeminjaman extends javax.swing.JFrame {
 

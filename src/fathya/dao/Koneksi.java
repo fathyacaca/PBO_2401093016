@@ -13,7 +13,7 @@ import javax.swing.JOptionPane;
 
 
 public class Koneksi {
-    private final String url = "jdbc:mysql://localhost/pbo_2025";
+    private final String url = "jdbc:mysql://localhost/pbo_3016";
     private final String username = "root";
     private final String password = "";
     

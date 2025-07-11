@@ -16,7 +16,7 @@ import javax.swing.table.DefaultTableModel;
 
 /**
  *
- * @author LABSIDOSEN
+ * @author WINDOWS
  */
 public class AnggotaController {
 

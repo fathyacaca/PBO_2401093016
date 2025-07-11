@@ -9,7 +9,7 @@ package latihan100425;
  * @author WINDOWS
  */
 public class StudentRecord {
-        private String name;
+        String name;
     private String address;
     private int age;
     private double mathGrade;

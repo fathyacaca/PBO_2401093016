@@ -7,13 +7,15 @@ package fathya.model;
 
 /**
  *
- * @author LABSIDOSEN
+ * @author WINDOWS
  */
 public class Anggota {
     private String kode;
     private String nama;
     private String jekel;
     private String alamat;
+   
+    
 
     public Anggota() {
     }
@@ -23,6 +25,7 @@ public class Anggota {
         this.nama = nama;
         this.jekel = jekel;
         this.alamat = alamat;
+       
     }
 
     public String getKode() {
@@ -56,4 +59,6 @@ public class Anggota {
     public void setAlamat(String alamat) {
         this.alamat = alamat;
     }
+    
+
 }

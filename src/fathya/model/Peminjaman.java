@@ -5,15 +5,20 @@
  */
 package fathya.model;
 
+import javax.swing.JTable;
+import javax.swing.JTextField;
+
 /**
  *
- * @author LABSIDOSEN
+ * @author WINDOWS
  */
 public class Peminjaman {
     private Anggota anggota;
     private Buku buku;
     private String tglpinjam;
     private String tglkembali;
+    private String tgldikembalikan;
+    private String tabelpengembalian;
 
     public Peminjaman() {
     }
@@ -48,5 +53,21 @@ public class Peminjaman {
 
     public void setTglkembali(String tglkembali) {
         this.tglkembali = tglkembali;
+    }
+    
+    public void setTgldikembalikan(String tgldikembalikan){
+        this.tgldikembalikan = tgldikembalikan;
+    }
+    
+    public String getTgldikembalikan() {
+        return tgldikembalikan;
+    }
+
+    public void setTabelPengembalian(String tabelpengembalian) {
+        this.tabelpengembalian = tabelpengembalian;
+    }
+    
+    public String getTabelPengembalian() {
+        return tabelpengembalian;
     }
 }

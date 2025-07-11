@@ -14,7 +14,7 @@ import java.util.List;
 
 /**
  *
- * @author LABSIDOSEN
+ * @author WINDOWS
  */
 public class BukuDao {
     public void insert(Buku buku) throws Exception {

@@ -19,7 +19,7 @@ import java.util.logging.Logger;
 
 /**
  *
- * @author LABSIDOSEN
+ * @author WINDOWS
  */
 public class PeminjamanController {
 

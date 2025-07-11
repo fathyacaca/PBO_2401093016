@@ -7,7 +7,7 @@ package fathya.model;
 
 /**
  *
- * @author LABSIDOSEN
+ * @author WINDOWS
  */
 public class Buku {
     private String kode;
